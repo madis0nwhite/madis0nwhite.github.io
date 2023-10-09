@@ -1,0 +1,32 @@
+.titlestyle {
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.divstyle1 {
+    width: 40px;
+    height: 50px;
+    border-style: solid;
+    background-color: deepskyblue;
+}
+
+* {
+    /* bolder-style:dashed;
+            bolder-width:5px;
+            bolder-color:blue;*/
+}
+
+div {
+    /* border-style:dashed;
+            border-width:5px;
+            border-color:deepskyblue;*/
+}
+
+span {
+}
+
+#div1 {
+    background-color: deepskyblue;
+    height: 30px;
+}
