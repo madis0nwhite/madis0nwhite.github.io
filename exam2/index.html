@@ -1,19 +1,160 @@
 <html>
 
 <head>
-    <title>[Exam code] Madi White Exam 2 MIS3033</title>
+    <title>[CPZY] Madi White Exam 2 MIS3033</title>
+    <style>
+        #main
+        {
+            width:800px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        #header
+        {
+            display:flex;
+            flex-direction:row;
+            
+        }
+
+        #b1
+        {
+            display:flex;
+            flex-direction:row;
+            
+        }
+
+        #b2
+        {
+            display:flex;
+            flex-direction:row;
+        }
+
+        #left
+        {
+
+        }
+
+        #right
+        {
+            width:280px;
+            
+            
+           
+            flex-direction:column;
+            
+           
+        }
+
+        #up
+        {
+            width:510px;
+            height:110px;
+        }
+
+        #down
+        {
+            display:flex;
+            flex-direction: row;
+            align-items:start;
+            justify-content: start;
+            width:510px;
+            height:160px;
+        }
+
+        #footer
+        {
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content:end;
+        }
+
+        .text
+        {
+            text-transfrom:uppercase;
+            background-color:lightskyblue;
+            border-radius: 5px;
+        }
+
+        .border
+        {
+            border-style:solid;
+            border-width:1px;
+            border-color:lightgrey;
+            border-radius:5px;
+        }
+
+    </style>
 </head>
 
 <body>
-    <img src="static/head1 (2).png" style="height:100px;" />
-    <img src="static/head2 (2).png" style="height:100px;" />
-    <img src="static/html.svg" style="height:100px;" />
-    <img src="static/linkedin (1).png" style="height:100px;" />
-    <img src="static/html.svg" style="height:100px;" />
-    <img src="static/css.svg" style="height:100px;" />
-    <img src="static/javascript.svg" style="height:100px;" />
-    <img src="static/sqlite.svg" style="height:100px;" />
-    <img src="static/logo.svg" style="height:100px;" />
+
+    <div id="main">
+        <div id="header">
+            <div class="border">
+                MIS 3033 Exam 2 <br />
+                Madison White
+            </div>
+            <div class="border">
+                CPZY
+            </div>
+        </div>
+        <div id="b1"; class="border">
+            <div>
+                <img src="static/head2 (2).png" style="height:60px;border-radius:50px;" />
+            </div>
+            <div>
+                Madison White <br />
+                MIS Student
+            </div>
+            <div>
+                <img src="static/linkedin (1).png" style="width:30px;" />
+                <a href="https://www.linkedin.com/" target="_blank"></a>
+            </div>
+        </div>
+
+        <div id="b2">
+            <div id="left">
+                <div id="up"; class="border">
+                    <span class="text">ABOUT ME</span>
+                    <p>
+                        I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.
+                    </p>
+                </div>
+                <div id="down"; class="border">
+                    <span class="text">ACHIEVEMENTS</span>
+                    <div class="border">
+                        <img src="static/html.svg" style="height:100px;" />
+                    </div>
+                    <div class="border">
+                        <img src="static/css.svg" style="height:100px;" />
+                    </div>
+                    <div class="border">
+                        <img src="static/javascript.svg" style="height:100px;" />
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="right"; class="border">
+                <span class="text";>RECENT NEWS</span>
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>Learned <img src="static/sqlite.svg" style="height:40px;" /></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer"; class="border">
+            <span style="font-weight:bold;font-size:20px;color:grey;">Developed by Madison White for MIS 3033 Exam 2</span>
+            <div style="height:50px;">
+                <img src="static/logo.svg" style="height:50px;" />
+            </div>
+        </div>
+
+    </div>
+
 
 </body>
 
